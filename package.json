@@ -1,5 +1,4 @@
 {
-  "homepage": "https//dezatop.github.io/TopDevs",
   "name": "topdevs",
   "version": "0.1.0",
   "private": true,
@@ -26,8 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "sass": "^1.54.9"
   }
 }
