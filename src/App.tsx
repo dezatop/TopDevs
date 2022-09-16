@@ -1,7 +1,7 @@
 //React
 import React from "react";
 //Libs
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 //Components
 import Employees from "components/Employees/Employees";
 
