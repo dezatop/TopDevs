@@ -1,0 +1,49 @@
+.wp {
+  display: flex;
+  margin-bottom: 8px;
+
+  > p {
+    margin-left: 10px;
+  }
+}
+
+.checkboxInput {
+  display: none;
+}
+
+.checkboxInput {
+  + span {
+    color: red;
+    display: flex;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    transition: all 150ms;
+    cursor: pointer;
+  }
+  &:checked {
+    + span {
+      background-color: deepskyblue;
+      border-width: 50 / 2;
+      border: 1px solid deepskyblue;
+      &::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='9' viewBox='0 0 12 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.6667 1.5L4.25004 7.91667L1.33337 5' stroke='white' stroke-width='2' strokeLinecap='round' strokeLinejoin='round'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  &:disabled {
+    + span {
+      border-radius: 50%;
+      background: forestgreen;
+    }
+  }
+}
