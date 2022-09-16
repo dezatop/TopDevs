@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Navigate to="/employees" replace />} />
-        <Route path="/employees" element={<Employees />} />
+        <Route path="/" element={<Employees />} />
       </Routes>
     </>
   );
