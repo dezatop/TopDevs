@@ -1,0 +1,26 @@
+.wp {
+  display: flex;
+
+  > ul {
+    flex: 75%;
+  }
+
+  > div {
+    flex: 25%;
+  }
+}
+
+.listUsers {
+  padding: 16px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 100px));
+  border-right: 5px solid #e0e0e0;
+}
+
+.noEmpl {
+  white-space: nowrap;
+  color: #ff0077;
+  font-size: 28px;
+}

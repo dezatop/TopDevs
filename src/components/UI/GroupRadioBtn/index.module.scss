@@ -25,11 +25,13 @@
     transition: all 150ms;
     cursor: pointer;
   }
+
   &:checked {
     + span {
       background-color: deepskyblue;
       border-width: 50 / 2;
       border: 1px solid deepskyblue;
+
       &::before {
         content: '';
         height: 100%;
@@ -40,6 +42,7 @@
       }
     }
   }
+
   &:disabled {
     + span {
       border-radius: 50%;

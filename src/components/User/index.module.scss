@@ -1,0 +1,29 @@
+.user {
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0px 2px 4px rgba(216, 216, 216, 0.35);
+  transition: all .3s;
+
+  &:hover {
+    border-color: deepskyblue;
+  }
+
+  h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 16px
+  }
+}
+
+.active {
+  border-color: deepskyblue;
+
+  h3 {
+    color: deepskyblue;
+  }
+}

@@ -1,0 +1,35 @@
+.birthday {
+  padding: 16px;
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid deepskyblue;
+    margin-bottom: 10px;
+  }
+
+  li {
+    &:first-of-type {
+      margin-top: 8px;
+    }
+
+    margin-bottom: 8px;
+  }
+
+  .date {
+    margin-left: 6px;
+    border-bottom: 1px solid deepskyblue;
+  }
+
+  .month {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .empty {
+    margin-bottom: 8px;
+    color: #ff0077;
+  }
+}

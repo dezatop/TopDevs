@@ -1,0 +1,21 @@
+.letters {
+  margin: 50px auto;
+  max-width: 750px;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+  transition: all .3s;
+
+  > li {
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+      color: deepskyblue;
+    }
+  }
+}
+
+.active {
+  color: deepskyblue;
+}
