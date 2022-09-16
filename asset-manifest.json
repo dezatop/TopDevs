@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//dezatop.github.io/TopDevs/static/css/main.634b556d.css",
+    "main.js": "/https//dezatop.github.io/TopDevs/static/js/main.b89334bb.js",
+    "index.html": "/https//dezatop.github.io/TopDevs/index.html",
+    "main.634b556d.css.map": "/https//dezatop.github.io/TopDevs/static/css/main.634b556d.css.map",
+    "main.b89334bb.js.map": "/https//dezatop.github.io/TopDevs/static/js/main.b89334bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.634b556d.css",
+    "static/js/main.b89334bb.js"
+  ]
+}
